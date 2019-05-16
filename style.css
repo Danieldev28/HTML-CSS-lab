@@ -1,0 +1,121 @@
+h1 {
+    float:left;
+    margin-left:2.5%;
+    
+    
+}
+
+nav li {
+    float:right;
+    text-decoration: none;
+    display:inline-block;
+    margin-right:4%;
+
+
+}
+
+.container {
+    margin: auto 0;
+    border: solid 6px black;
+
+ 
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-weight: normal;
+    background-color:blue
+    
+}
+
+.container {
+    background-color: green;
+    width:99%;
+    height:80px;
+    margin: auto 0;
+    border: solid 6px black;
+}
+
+#footer {
+    background-color:red;
+    position:relative;
+    margin-top:1200px;
+    height:80px;
+    clear:both;
+    border: solid black 6px;
+
+}
+
+.section {
+    height:80%;
+    
+}
+
+#companyname {
+    text-align:right;
+    width:44%;
+    display:inline-block;
+    
+}
+
+#companyaddress {
+    text-align: right;
+    width:40%;
+    display:inline-block;
+
+}   
+
+.section {
+    text-align:center;
+}
+
+.card {
+    height:100px; 
+    width:20%;
+    display:inline-block;
+   
+}
+
+img {
+    height:168px;
+    width:127px;
+}
+
+.section1{
+    margin: 10% 10% 5%;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.section2{
+    margin: 3% 10% 5%;
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+}
+
+.form {
+    height:450px;
+    margin:100px;
+    border: 6px solid black;
+    text-align:left;
+    font-size:22px;
+    padding:20px;
+    
+}
+
+.element {
+    text-align:center;
+    height:30px;
+    margin:60px;
+}
+
+@media(max-width:600px) {
+   .card { 
+       height:220px;
+       width:100%;
+       display:block;
+       
+}
+}
